@@ -31,4 +31,5 @@ else:win32:!win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../.
 else:unix: PRE_TARGETDEPS += $$PWD/../../googletest-master/googletest-master/build-googlemock-Desktop_Qt_5_10_0_MinGW_32bit-Debug/gtest/libgtest.a
 
 SOURCES += \
-    main.cpp
+    main.cpp \
+    soundextest.cpp
